@@ -1,7 +1,7 @@
 <template>
   <section id="gatos" class="favoritos-section">
     <h2 class="titulo">Coisas que Banguela e Soluço amam</h2>
-    <div class="items-grid">
+    <div class="items-flex">
       <div class="fav-circle" v-for="item in favoritos" :key="item.nome">
         <img :src="item.img" :alt="item.nome" />
         <span>{{ item.nome }}</span>
@@ -55,17 +55,19 @@ const favoritos = [
   text-shadow: 0 0 10px #000;
 }
 
-.items-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 100px;
+.items-flex {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  max-width: 600px;
+  gap: 60px;
+  max-width: 800px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .fav-circle {
-  width: 180px;
+  flex: 1 1 200px; 
+  max-width: 180px;
   height: 180px;
   background: rgba(255, 255, 255, 0.05);
   border: 3px solid #ffe066;
@@ -106,4 +108,5 @@ const favoritos = [
     transform: translateY(-8px);
   }
 }
+
 </style>
