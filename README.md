@@ -1,29 +1,35 @@
-# site-gatos
+# Meu Primeiro Projeto com Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é um site criado para aprender Vue.js e ao mesmo tempo celebrar meus gatinhos, **Banguela** e **Soluço**!
 
-## Recommended IDE Setup
+A ideia surgiu como uma forma divertida de explorar os conceitos do Vue enquanto crio algo significativo e visualmente fofo.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Sobre o Projeto
 
-## Customize configuration
+Este site:
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Mostra informações dos meus gatinhos com um visual temático inspirado em *Como Treinar o Seu Dragão*
+- Foi construído com **Vue 3**  
+- Explora eventos, animações, condicionais e estilização personalizada  
+- Serve como um pequeno portfólio pessoal do aprendizado com Vue
 
-## Project Setup
+## Objetivo
+
+Aprender Vue.js na prática, com algo que me motiva: os gatinhos que eu amo.
+
+
+## Tecnologias Usadas
+
+- Vue.js 3
+- HTML5 + CSS3  
+- JavaScript (ES6+)  
+
+## Como rodar localmente
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
 ```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
